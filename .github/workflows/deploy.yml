@@ -32,7 +32,7 @@ jobs:
           node-version: 14.x
 
       - name: Install dependencies
-        run: yarm Install
+        run: yarn Install
 
       - name: Build page
         run: yarn build
